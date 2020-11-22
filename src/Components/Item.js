@@ -9,8 +9,9 @@ const Item = ({ index, height }) => (
   styled-components
 */
 const ItemWrapper = styled.div`
-  height: ${(props) => props.height};
+  height: ${(props) => `${props.height}px`};
   background-color: "#fafafa";
+  font-weight: bold;
 `;
 
 export default Item;
